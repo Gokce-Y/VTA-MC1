@@ -1,0 +1,38 @@
+VTA-MC1 Project Setup
+1️⃣ Create and Activate Virtual Environment
+
+Windows (PowerShell):
+
+python -m venv .venv
+.\.venv\Scripts\Activate
+
+
+Mac / Linux:
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+2️⃣ Install Required Packages
+
+If a requirements.txt file exists:
+
+pip install -r requirements.txt
+
+3️⃣ Launch Jupyter Notebook
+
+Once the environment is active:
+
+jupyter notebook
+
+
+Then you can open and run the following notebooks:
+
+MC1_Aufgabe1.ipynb
+
+MC1_Aufgabe2.ipynb
+
+4️⃣ Deactivate Virtual Environment
+
+When finished:
+
+deactivate
